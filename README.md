@@ -619,3 +619,6 @@ The Gaussian NB and Random Forest Classifiers differ in their Recalls. Gaussian 
 
 In this project, I analyzed the sentiment polarity in the comments of Reddit's soccer subreddit. Using statistical tests, I found convincing evidence that the mean comment score-weighted sentiment polarity is different across match results for Home team commenters and Away team commenters. Next, I perform data cleaning to prepare the data for prediction analysis. I showed that when there are imbalanced classes, under-sampling and over-sampling techniques are essential for a more realistic estimate of the performance. Finally, I compared various machine learning models and showed that Sentiment polarity metrics in isolation provide poor performance in Match Result prediction.
 
+## LICENSE
+
+Open sourced under the [MIT License](LICENSE.md)
