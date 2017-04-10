@@ -82,7 +82,7 @@ import seaborn as sns
 
 <a id ="data-collection"></a>
 
-# 3. Data Collection 
+## 3. Data Collection 
 
 In this sub-section, I perform the data collection and computation of the metrics of interest. Our final dataframe will include each submission in its own row and its metrics and other info in the columns. Therefore, the metrics are computed at a per-submission granularity. The key concepts of data generation are as follows:
 
@@ -97,7 +97,7 @@ Apart from the sentiment metrics, I also collect the submission score (~ number 
 
 The following cells in this sub-section of the Jupyter notebook execute the above key concepts in code.
 
-# 4. Exploratory Data Analysis
+## 4. Exploratory Data Analysis
 
 To analyze the sentiment analysis in isolation, I do not consider the team names, submission scores and number of comments as features for the match result prediction. Therefore, the features include only polarity metrics. The response variable is the Match result.
 
